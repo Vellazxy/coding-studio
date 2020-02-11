@@ -1,0 +1,403 @@
+body{
+	background-color: #FFE393;
+}
+
+.grids{
+	display: grid;
+	margin-left:10vw;
+	margin-right:7vw;
+	margin-top:20vw;
+	grid-row-gap: 1.5vh;
+	grid-column-gap: 1vh;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.circle1{
+	width: 10vw;
+	height: 10vw;
+	border-radius: 50%;
+	background-color: #FF4B31;
+}
+
+.circle2{
+	position: relative;
+	top:-8vw;
+	left:1.9vw;
+	width: 5vw;
+	height: 5vw;
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 1vh;
+	border-color: #26610F;
+	background-color: transparent;
+}
+
+.circle3{
+	position: relative;
+	width: 2vw;
+	height: 2vw;
+	border-radius: 50%;
+	background-color: #26610F;
+	top:-12vw;
+	left:3.9vw;
+}
+
+@keyframes scale{
+  0% {transform: scale(1);}
+  50% {transform: scale(3);}
+  100% {transform: scale(1);}
+} 
+
+.button1 .circle2:hover{
+	animation: scale 1s ease alternate infinite;
+}
+
+.rec1{
+	width: 11.5vw;
+	height: 9.5vw;
+	background-color: #DB3535;
+}
+
+.rec2{
+	position: relative;
+	width: 9vw;
+	height: 5vw;
+	background-color: #807070;
+	top:-8.5vw;
+	left:1.5vw;
+}
+
+.rec3{
+	position: relative;
+	width: 6.9vw;
+	height: 2vw;
+	background-color: #DE615D;
+	top:-11vw;
+	left:2.4vw;
+}
+
+.rec4{
+	position: relative;
+	width: 5.5vw;
+	height: 1vw;
+	background-color: #DB3535;
+	top:-12.5vw;
+	left:3vw;
+}
+
+@keyframes move{
+	0% {top:0px;}
+	50% {top:50px;}
+ 	100% {top:0px;}
+}
+
+
+@keyframes rotate{
+	0% {transform: rotate(0deg);}
+	50% {transform: rotate(180deg);}
+ 	100% {transform: rotate(0deg);}
+}
+
+.button2 .rec1:hover{
+	animation: rotate 4s infinite;
+}
+
+.button3{
+	margin-left:2vw;
+}
+
+.square{
+	position: relative;
+	left: 3vw;
+	top:1vw;
+	width: 5vw;
+	height: 5vw;
+	background-color: black;
+	transform: rotate(50deg);
+}
+
+.square:hover{
+	background-color: white;
+}
+
+.stick{
+	position: relative;
+	width: 1vw;
+	height: 15vw;
+	border-radius: 5%;
+	background-color: black;
+	transform: rotate(-30deg);
+	top:-7.5vw;
+	left:5.5vw;
+}
+
+.stick:hover{
+	animation: strech 5s ease alternate infinite;
+}
+
+@keyframes strech{
+	0% {transform: rotate(0deg);}
+	50% {transform: rotate(360deg);}
+ 	100% {transform: rotate(0deg);}
+}
+
+.ss1{
+	position: relative;
+	width: 1.8vw;
+	height: 1.5vw;
+	background-color: black;
+	transform: rotate(-20deg);
+	top:-10.5vw;
+	left:5.5vw;
+}
+
+.ss2{
+	position: relative;
+	width: 1.8vw;
+	height: 1.5vw;
+	background-color: black;
+	transform: rotate(30deg);
+	top:-22.5vw;
+	left:-1.5vw;
+}
+
+.ss3{
+	position: relative;
+	width: 1.8vw;
+	height: 1.5vw;
+	background-color: black;
+	transform: rotate(30deg);
+	top:-15.5vw;
+	left:1.5vw;
+}
+
+.ss4{
+	position: relative;
+	width: 1.8vw;
+	height: 1.5vw;
+	background-color: black;
+	transform: rotate(10deg);
+	top:-21.5vw;
+	left:-1.5vw;
+}
+
+.ss5{
+	position: relative;
+	width: 2.5vw;
+	height: 1.5vw;
+	background-color: purple;
+	transform: rotate(10deg);
+	top:-21.5vw;
+	left:7.5vw;
+}
+
+.ss6{
+	position: relative;
+	width: 2.5vw;
+	height: 1.5vw;
+	background-color: yellow;
+	transform: rotate(60deg);
+	top:-27.5vw;
+	left:7.5vw;
+}
+
+.ss7{
+	position: relative;
+	width: 1.8vw;
+	height: 1.5vw;
+	background-color: black;
+	transform: rotate(20deg);
+	top:-22.5vw;
+	left:11.5vw;
+}
+
+.ss8{
+	position: relative;
+	width: 4.5vw;
+	height: 1.5vw;
+	background-color: purple;
+	transform: rotate(160deg);
+	top:-26.4vw;
+	left:0.5vw;
+}
+
+
+/*.cover{
+	position: relative;
+	width:14vw;
+	height:14vw;
+	background-color: #FFE393;
+	top:-35vw;
+	left:-1vw;
+	opacity:0%;
+}*/
+
+/*.cover:hover{
+	opacity:100%;
+}*/
+
+.button4{
+	margin-left: 3vw;
+}
+
+.recc1{
+	width: 10vw;
+	height: 10vw;
+	background-color: #656873;
+}
+
+.recc1:hover{
+	background-color: #FFE393;
+}
+
+.recc2{
+	position: relative;
+	width: 7vw;
+	height: 7vw;
+	background-color: #B099E8;
+	top:-8.5vw;
+	left:1.5vw;
+}
+
+.recc2:hover{
+	background-color: #FFE393;
+}
+
+.recc3{
+	position: relative;
+	width: 4vw;
+	height: 4vw;
+	background-color: #5D8BFF;
+	top:-14vw;
+	left:3vw;
+}
+
+.recc3:hover{
+	background-color: #FFE393;
+}
+
+.recc4{
+	position: relative;
+	width: 3vw;
+	height: 3vw;
+	background-color: lightgrey;
+	top:-17.5vw;
+	left:3.5vw;
+}
+
+.recc4:hover{
+	background-color: #FFE393;
+}
+
+.button5 {
+	margin-left: 3vw;
+}
+
+.square1{
+	width: 11.5vw;
+	height: 9.5vw;
+	background-color: #DB3535;
+}
+
+.st1{
+	position: relative;
+	width: 0.9vw;
+	height:10vw;
+	background-color: #B099E8;
+	top:-9vw;
+	left:1vw;
+	transform:rotate(-5deg);
+}
+
+.st1:hover{
+	transform: rotate(2deg);
+}
+
+.st2{
+	position: relative;
+	width: 0.9vw;
+	height:10.2vw;
+	background-color: #B099E8;
+	top:-20vw;
+	left:2.5vw;
+	transform:rotate(-2deg);
+}
+
+.st2:hover{
+	transform: rotate(4deg);
+}
+
+.st3{
+	position: relative;
+	width: 0.9vw;
+	height:10.2vw;
+	background-color: #B099E8;
+	top:-30vw;
+	left:4vw;
+	transform:rotate(0deg);
+}
+
+.st3:hover{
+	transform: rotate(-3deg);
+}
+
+.st4{
+	position: relative;
+	width: 0.9vw;
+	height:10.2vw;
+	background-color: #B099E8;
+	top:-40vw;
+	left:5.5vw;
+	transform:rotate(3deg);
+}
+
+.st4:hover{
+	transform: rotate(-1deg);
+}
+
+.st5{
+	position: relative;
+	width: 0.9vw;
+	height:10.2vw;
+	background-color: #B099E8;
+	top:-50.5vw;
+	left:7vw;
+	transform:rotate(-3deg);
+}
+
+.st5:hover{
+	transform: rotate(0deg);
+}
+
+.st6{
+	position: relative;
+	width: 0.9vw;
+	height:10.2vw;
+	background-color: #B099E8;
+	top:-60vw;
+	left:8.5vw;
+	transform:rotate(-1deg);
+}
+
+.st6:hover{
+	transform: rotate(2deg);
+}
+
+.st7{
+	position: relative;
+	width: 0.9vw;
+	height:10.2vw;
+	background-color: #B099E8;
+	top:-71vw;
+	left:10vw;
+	transform:rotate(2deg);
+}
+
+.st7:hover{
+	transform: rotate(5deg);
+}
+
+
+
+
+

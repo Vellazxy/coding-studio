@@ -1,0 +1,98 @@
+/*font-family: 'Playfair Display', serif;*/
+body{
+	background-color: pink;
+}
+
+img{
+	border-radius: 50%;
+	width:200px;
+}
+
+.grid{
+	margin-left:300px;
+	margin-right: 300px;
+	margin-top:150px;
+	display: grid;
+	grid-row-gap: 15px;
+	grid-column-gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+@keyframes bounce{
+  0% {transform: scale(1);}
+  50% {transform: scale(0.5);}
+  100% {transform: scale(1);}
+}
+
+@keyframes spin{
+	0% {transform:rotate(0deg);}
+	20% {transform:rotate(40deg);}
+	40% {transform:rotate(80deg);}
+	60% {transform:rotate(150deg);}
+	80% {transform:rotate(230deg);}
+	100% {transform:rotate(300deg);}
+}
+
+.img1 img:hover{
+  animation: bounce 1s infinite;
+}
+
+.img2 img:hover{
+  opacity: 0;
+}
+
+.img3 img:hover{
+	animation: spin 0.5s infinite;
+}
+
+.img4 img:hover{
+  animation: bounce 1s infinite;
+}
+
+.img6 img:hover{
+	border-radius: 0%;
+}
+
+.img7 img:hover{
+  animation: bounce 1s infinite;
+}
+
+.img8 img:hover{
+  opacity: 0;
+}
+
+.circle1{
+	background-color: black;
+	position: relative;
+	top: -120px;
+	left:50px;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	z-index: -1;
+}
+
+.img9 img:hover{
+	animation: spin 0.5s infinite;
+}
+
+.img10 img:hover{
+  animation: bounce 1s infinite;
+}
+
+.img11 img:hover{
+  opacity: 0;
+}
+
+
+.img12 img:hover{
+  opacity: 0;
+}
+
+.img13 img:hover{
+	animation: spin 0.5s infinite;
+}
+
+.img15 img:hover{
+  animation: bounce 1s infinite;
+}
